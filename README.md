@@ -27,5 +27,6 @@ After:
 - Open Chrome DevTools in the Edpuzzle
 - In the Sources/Overrides panel, select the cloned `Edpuzzle-Skip` repository as an override
 - If Chrome asks, allow access to the folder
-- Copy over `app-*.js` to the actual app file in sources. The file name is different for each instance of Edpuzzle but can be found by using the starting string `app-`
+- Copy over `app-*.js` to the actual app file in sources. The file name is different for each instance of Edpuzzle but can be found by searching for `app-`
+    - The first result should look something like this: `app-db2f47f6d922f7ba958c.js`
 - The page should crash; reload and the Edpuzzle should be skippable
