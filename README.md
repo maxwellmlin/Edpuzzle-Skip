@@ -25,6 +25,6 @@ After:
 
 # How to use
 - Open Chrome DevTools in the Edpuzzle
-- In the Sources/Overrides panel, select the `Edpuzzle-Skip` folder from this repository
+- In the Sources/Overrides panel, select the `Edpuzzle-Skip` folder from this repository as an override
 - If Chrome asks, allow access to the folder
 - The page should crash; reload and the Edpuzzle should be skippable
