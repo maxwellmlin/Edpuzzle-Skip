@@ -22,3 +22,7 @@ After:
     }
 }
 ```
+
+# How to use
+- Open Chrome DevTools in the Edpuzzle
+- In the Sources/Overrides panel, select the `Edpuzzle-Skip` folder from this repository
