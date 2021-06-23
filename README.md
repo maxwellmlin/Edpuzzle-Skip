@@ -1,7 +1,20 @@
-# Edpuzzle-Skip
-Allows you to skip ahead in Edpuzzle videos. I've only tried this using Chrome DevTools' local overrides but it could work in other browsers.
+![Edpuzzle Skip Logo](images/favicon.png?raw=true)
 
-The only change made was in `assets.edpuzzle.com/app/app-*.js`
+# About
+A Chrome extension that allows you to skip ahead in Edpuzzle videos. Relies on Manifest v2 which will probably not be supported in the future.
+
+## Install
+1. Download the [latest release](https://github.com/maxwellmlin/edpuzzle-skip/releases) and unzip the file
+2. Go to chrome://extensions
+3. Enable `developer mode`
+4. Click `load unpacked` and select the unzipped file
+
+## Usage
+This extension allows you to skip ahead in Edpuzzle videos. It uses the chrome.webRequest API to redirect requests to a modified source file, app.js.
+
+You can disable/enable the extension by clicking the extension icon. Due to caching, changes may not be made immediately. You may need to close all Edpuzzle tabs so that it issues new requests.
+
+The only change made was in `https://assets.edpuzzle.com/app/app-*.js`
 
 Before:
 ```javascript
@@ -22,11 +35,3 @@ After:
     }
 }
 ```
-
-# How to use
-- Open Chrome DevTools in the Edpuzzle
-- In the Sources/Overrides panel, select the cloned `Edpuzzle-Skip` repository as an override
-- If Chrome asks, allow access to the folder
-- Copy over `app-*.js` to the actual app file in sources. The file name is different for each instance of Edpuzzle but can be found by searching for `app-`
-    - The file to edit should have a name similar to this: `app-db2f47f6d922f7ba958c.js`
-- The page should crash; reload and the Edpuzzle should be skippable
