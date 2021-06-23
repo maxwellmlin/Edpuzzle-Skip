@@ -10,7 +10,7 @@ A Chrome extension that allows you to skip ahead in Edpuzzle videos. Relies on M
 4. Click `load unpacked` and select the unzipped file
 
 ## Usage
-This extension allows you to skip ahead in Edpuzzle videos. It uses the chrome.webRequest API to redirect requests to a modified source file, app.js.
+This extension allows you to skip ahead in Edpuzzle videos. It uses the chrome.webRequest API to redirect requests to a modified source file, `app.js`.
 
 You can disable/enable the extension by clicking the extension icon. Due to caching, changes may not be made immediately. You may need to close all Edpuzzle tabs so that it issues new requests.
 
