@@ -14,7 +14,7 @@ This extension allows you to skip ahead in Edpuzzle videos. It uses the chrome.w
 
 You can disable/enable the extension by clicking the extension icon. You may need to close all Edpuzzle tabs or refresh so that it issues new requests. 
 
-The only change made was in `https://assets.edpuzzle.com/app/app-*.js`
+The only change made was in `*://assets.edpuzzle.com/app/app*.js`
 
 Before:
 ```javascript
