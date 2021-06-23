@@ -1,4 +1,4 @@
-![Edpuzzle Skip Logo](images/favicon.png?raw=true)
+![Edpuzzle Skip Logo](images/favicon-192.png?raw=true)
 
 # About
 A Chrome extension that allows you to skip ahead in Edpuzzle videos. Relies on Manifest v2 which will probably not be supported in the future.
