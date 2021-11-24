@@ -40,5 +40,3 @@ After:
   },
 },
 ```
-
-5. The page should crash; reload and the Edpuzzle should be skippable
