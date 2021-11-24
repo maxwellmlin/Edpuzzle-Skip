@@ -15,7 +15,7 @@ You may need to refresh the Edpuzzle tabs and toggle the extension on/off in ord
 ## Extension not working?
 Please open a [new issue](https://github.com/maxwellmlin/edpuzzle-skip/issues) to let me know.
 
-In the meantime you can try to edit Edpuzzle's `app.js` file manually use Chrome Developer Tools's Local Overrides.
+In the meantime you can try to edit Edpuzzle's `app.js` file manually with Chrome Developer Tools's Local Overrides.
 1. Open Chrome DevTools in the Edpuzzle
 2. In the Sources/Overrides panel, select a new folder as an override
 3. In the Sources/Page panel, find the `app.js` file. It should have a name matching the wildcard: '*://assets.edpuzzle.com/app/app*.js'
