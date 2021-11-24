@@ -22,7 +22,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     }
     if (enabled) {
       return {
-        redirectUrl: "https://raw.githack.com/maxwellmlin/edpuzzle-skip/main/app.js"
+        redirectUrl: "https://rawcdn.githack.com/maxwellmlin/edpuzzle-skip/1270d3c10875bfbb9b8d76e4d5e53694b1dc3c92/app.js"
       }
     }
   }, {
