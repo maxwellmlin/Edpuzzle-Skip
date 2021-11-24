@@ -13,26 +13,3 @@ Please open a [new issue](https://github.com/maxwellmlin/edpuzzle-skip/issues) i
 
 ## Usage
 You can disable/enable the extension by clicking the extension icon. You may need to open/close or refresh the Edpuzzle tabs in order for the video to become skippable.
-
-## How the extension works
-This extension uses the chrome.webRequest API to redirect requests to a modified source file, `app.js`.
-
-Source file:
-```javascript
-{
-    key: 'getMaxSkipAhead',
-    value: function() {
-        return this.maxSkipAhead
-    }
-}
-```
-
-Modified file:
-```javascript
-{
-    key: "getMaxSkipAhead",
-    value: function() {
-        return this.videoDuration
-    }
-}
-```
