@@ -4,7 +4,7 @@ A Chrome extension that allows you to skip ahead in Edpuzzle videos.
 Please open a [new issue](https://github.com/maxwellmlin/edpuzzle-skip/issues) if you encounter any problems.
 
 ## Install
-1. Download the [latest release](https://github.com/maxwellmlin/edpuzzle-skip/zipball/github-pages) and unzip the file
+1. Download the [latest release](https://github.com/maxwellmlin/edpuzzle-skip/zipball/main) and unzip the file
 2. Go to chrome://extensions
 3. Enable `developer mode`
 4. Click `load unpacked` and select the unzipped folder
