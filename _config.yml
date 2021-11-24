@@ -1,1 +1,9 @@
 theme: jekyll-theme-minimal
+
+title: Edpuzzle Skip
+tagline: Edpuzzle Skip Chrome Extension
+description: A Chrome extension that allows you to skip ahead in Edpuzzle videos.
+url: https://maxwellmlin.github.io/edpuzzle-skip/
+
+logo: https://maxwellmlin.github.io/edpuzzle-skip/images/favicon-192.png?raw=true
+show_downloads: true
